@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="">
+    <title>Cerulean Resort | Homepage</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav id="navBar">
+        <div class="container">
+            <div class="navWrap">
+                <img src="./image_resources/Logo.png" alt="logo">
+                <div class="navRight">
+                    <a href="index.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a class="current" href="Contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- form -->
+
+    <div id="form">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <h3>Please fill out the form below to contact us</h3>
+            <form class="formlist" action="process.php">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <p>Message</p>
+                    <Textarea maxlength="500" placeholder="Send Us A Message"></Textarea>
+                </div>
+                <div class="center">
+                    <input class="btn" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Adress -->
+    <section id="adress">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-2x"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, minus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-2x"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, minus.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-2x"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, debitis.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer id="footer">
+        <p>Cerulean Ribbon Resort &copy; 2021, All Rights Reserved.</p>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="Contact.html"><i class="fas fa-envelope fa-2x"></i></a>
+    </footer>
+</body>
+
+</html>
